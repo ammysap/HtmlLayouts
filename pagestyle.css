@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 10px;
+    padding: 20px 40px;
+    background: black;
+}
+
+.message a {
+    color: white;
+    font-size: 30px;
+}
+
+.message div {
+    float: right;
+    margin: 0px 50px;
+}
+
+.message i {
+    float: right;
+    color: white;
+    font-size: 39px;
+    margin: 0px 12px;
+
+}
+
+.message i:hover {
+    color: aqua;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 15px;
+}
+
+.blank1 {
+
+    margin: 0px 10px;
+    padding: 35px 40px;
+    background: black;
+
+}
+
+.blank1 a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.blank3 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.blank3 a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 9px;
+}
+
+.blank4 {
+    grid-column: 1/3;
+    margin: 0px 10px;
+    padding: 20px 40px;
+    background: white;
+}
+
+.blank4 h1 {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    /* border: 2px solid red; */
+    margin-top: 120px;
+
+}
+
+
+.blank-1 {
+    grid-column: 1/3;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    /* background: white; */
+}
+
+.blank-1 a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.blank-2 {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    background: white;
+}
+
+.blank-2 a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.blank-4 {
+    grid-column: 2/4;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    background: black;
+}
+
+.blank-4 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.tips {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px 20px;
+}
+
+.tips h4 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tips h4 i {
+    color: black;
+
+}
+
+.footer {
+    margin: 60px 20px;
+    padding: 20px;
+}
+
+hr {
+    margin: 30px 0px;
+    height: 1px;
+    background-color: black;
+}
+
+.footer p {
+    font-weight: bold;
+}
